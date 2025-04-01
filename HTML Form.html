@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf=8">
+    <title>simple HTML FORM</title>
+    <style type="text/css">
+    label {
+        font-weight: bold;
+        color: #300ACC;
+    }
+    </style>
+    </head>
+<body>
+
+    <form action="handle_form.php" method="post">
+        <feildset><legend>Enter your information in the form below</legend>
+             <p><label>Name: <input type="text" name="name" size ="20" maxlength="40"></label></p>
+        
+        <p><label>Email Address: <input type="email" name="email" size="40" maxlength="60"></label></p>
+        <p><label>Comments: <textarea name="comments" rows="3" cols="40"></textarea></label></p>
+    
+    </feildset>
+    </form>
+</body>
+</html>
